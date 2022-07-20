@@ -1,0 +1,31 @@
+{
+    "name": "CoachAiEngine",
+    "rootNamespace": "CoachAiEngine",
+    "references": [
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:2765e68924a08a94ea0ea66b31c0168f"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "websocket-sharp-standard.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "4.1",
+            "define": "COACH_AI_AR_FOUNDATION"
+        }
+    ],
+    "noEngineReferences": false
+}

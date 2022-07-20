@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b53d75e090004bc5a4bf74d93e8472f, type: 3}
+  m_Name: Pose3DARSpec
+  m_EditorClassIdentifier: 
+  Activity:
+    targetFPS: 30
+  Performance:
+    targetFPS: 30
+    maximumPipelineThreads: 2
+    maximumInboundQueueSize: 2
+  Pose3DConfig:
+    localizePose3dOnARPlane: 1
+    knownPersonSize: 1.8
+    pose3dModelParam: 0
+  PoseTrackerConfig:
+    poseModelForFullFrame: 0
+    usePoseSmoothing: 0
+    poseSmoothingFactor: 0.1
+    poseSmoothingMaxDisplacement: 20
+    enablePose2DLocalizationOnGroundWithAR: 0
+    enablePersonSegmentation: 0
+    sortPoseBy: 2
+  Region_of_Interest:
+    usePersonDetectorForAdaptiveRegionOfInterest: 0
+    useAdaptiveRegionOfInterest: 0
+    poseModelRoi: 2

@@ -1,0 +1,4 @@
+-keep class com.unity3d.plugin.* { *; }
+-keep class com.coachai.engine.unity.* { *; }
+-keep class com.coachai.engine.unity.camera.* { *; }
+-keep class com.coachai.engine.unity.serialization.* { *; }

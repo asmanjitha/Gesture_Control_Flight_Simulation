@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710f7da5ce45148f68d2d184692f9aa3, type: 3}
+  m_Name: PoseTrackerAnalytics
+  m_EditorClassIdentifier: 
+  adaptiveRegionOfInterestMaxTimeDiffForPoseRoi: 0.4
+  adaptiveRegionOfInterestPoseRoiScalingFactor: 1
+  adaptiveRegionOfInterestScaleAnnealingSmaller: 0.5
+  adaptiveRegionOfInterestScaleAnnealingLarger: 0.9
+  adaptiveRegionOfInterestTranslationAnnealingFactor: 0.8
+  adaptiveRegionOfInterestSweetSpotAnchor: 0.55
+  displayAdaptiveRegionOfInterest: 0
+  displayPose: 1
+  usePoseSmoothing: 0
+  enablePersonLocalization: 0
+  enablePersonSegmentation: 0
+  poseModelRoi: 0
+  poseModelForFullFrame: 0
+  useAdaptiveRegionOfInterest: 1
+  usePersonDetectorForAdaptiveRegionOfInterest: 1
+  targetFPS: 30
+  maximumPipelineThreads: 2
+  maximumInboundQueueSize: 2
+  sortPoseBy: 2

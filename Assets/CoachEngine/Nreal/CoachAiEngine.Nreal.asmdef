@@ -1,0 +1,22 @@
+{
+    "name": "CoachAiEngine.Nreal",
+    "rootNamespace": "CoachAiEngine.Nreal",
+    "references": [
+        "GUID:d4dc346326f9b4fa0b8f0bc3950dbbe6",
+        "GUID:02229f6652728da45838accf9ce93851"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "COACH_AI_NREAL"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

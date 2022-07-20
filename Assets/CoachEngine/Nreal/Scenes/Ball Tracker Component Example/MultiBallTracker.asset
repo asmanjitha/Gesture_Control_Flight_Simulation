@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3967042915214389b3a782e65cc4722, type: 3}
+  m_Name: MultiBallTracker
+  m_EditorClassIdentifier: 
+  ballModel: 1
+  ballDetectorConfidenceThreshold: 0
+  localizationTypeParameter: 0
+  localizationOnGroundInfinitePlane: 1
+  localizationOnPlanePreferredYLocation: NaN
+  localizationOnGroundMaxYDeviation: 0.5
+  mOTDetectionMaxLiveTimeParameter: 2
+  mOTTrackMinLengthParameter: 5
+  mOTDontSelectTracksOlder: 0.5
+  mOTTrackMedianConfidenceThresholdParameter: 0.5
+  mOTAssignmentMethodParameter: 1
+  mOTMatchingThresholdParameter: 50
+  ballDiameter: 0.22
+  discardBelowGroundTolerance: 3.4028235e+38
+  maximumInboundQueueSize: 2
+  publishTrajectoryEvent: 1

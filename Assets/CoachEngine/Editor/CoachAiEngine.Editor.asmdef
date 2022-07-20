@@ -1,0 +1,18 @@
+{
+    "name": "CoachAiEngine.Editor",
+    "rootNamespace": "CoachAiEngine.Editor",
+    "references": [
+        "GUID:d4dc346326f9b4fa0b8f0bc3950dbbe6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

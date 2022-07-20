@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dependencies>
+    <iosPods>
+            <!--
+                In order for CocoaPods to access the repository create .netrc file in
+                your home directory and put the following inside:
+
+                machine nexus.coach-ai.com
+                login <YOUR USERNAME>
+                password <YOUR PASSWORD>
+            -->
+        <sources>
+            <source>https://nexus.coach-ai.com/repository/coach-specs/</source>
+        </sources>
+        <!-- iosPod supports the following attributes:
+         * "name" (required)
+           Name of the Cocoapod.
+         * "path" (optional)
+           Path to the local Cocoapod.
+           NOTE: This is expanded to a local path when the Podfile is generated.
+           For example, if a Unity project has the root path "/my/game" and the
+           pod the path is "foo/bar", this will be will be expanded to
+           "/my/game/foo/bar" when the Podfile is generated.
+         * "version" (optional)
+           Cocoapod version specification for the named pod.
+           If this is not specified the latest version is used.
+           NOTE: This can't be used when "path" is set.
+         * "bitcodeEnabled" (optional)
+           Whether this Cocoapod requires bitcode to be enabled in Unity's
+           generated Xcode project.  This is "true" by default.
+         * "minTargetSdk" (optional)
+           The minimum iOS SDK required by this Cocoapod.
+         * "addToAllTargets" (optional)
+           Whether to add this pod to all targets when multiple target is
+           supported. This is "false" by default.
+         * "configurations" (optional)
+           Podfile formatted list of configurations to include this pod in.
+         * "modular_headers" (optional)
+           Set to true to enable modular headers, false to disable.
+         * "source" (optional)
+           Source repo to fetch the pod from.
+         * "subspecs" (optional)
+           Subspecs to include for the pod.
+        -->
+        <iosPod name="CoachAIKit" bitcodeEnabled="false" minTargetSdk="12.0" addToAllTargets="true" version="3.1.0" />
+    </iosPods>
+</dependencies>
